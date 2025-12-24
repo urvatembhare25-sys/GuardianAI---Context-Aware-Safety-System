@@ -39,3 +39,7 @@ In moments of crisis, a victim often lacks the time or physical ability to inter
 ```bash
 npm install
 npm run dev
+
+
+## 🌐 Live Demo
+https://guardian-ai-context-aware-safety-system-j9af9h8gh.vercel.app
