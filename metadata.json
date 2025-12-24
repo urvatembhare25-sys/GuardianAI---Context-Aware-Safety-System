@@ -1,0 +1,9 @@
+{
+  "name": "GuardianAI - Context-Aware Safety System",
+  "description": "An advanced safety application that uses device sensors and Gemini AI to detect distress situations like falls, forced movement, or vocal panic, automatically triggering SOS alerts to trusted contacts.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
