@@ -3,11 +3,11 @@ GuardianAI: Context-Aware Autonomous Women’s Safety System
 GuardianAI is a proactive safety companion designed to provide protection in high-stress situations where manual intervention is impossible. Unlike traditional safety apps that require the user to unlock their phone and press a button, GuardianAI uses Sensor Fusion and Generative AI to autonomously detect danger and trigger SOS protocols.
 
 
-🛡️ The Problem
+## 🛡️ The Problem
 In moments of crisis, a victim often lacks the time or physical ability to interact with a mobile device. Most safety apps fail because they are reactive rather than proactive.
 
 
-✨ Key Features
+## ✨ Key Features
 1. Vocal Sentry (Acoustic AI): Designed to integrate with Gemini 2.5 Flash Native Audio API for real-time distress audio analysis.
 2. Impact Logic (Fall Detection): Utilizes the device's accelerometer to monitor G-Force magnitude. If an impact exceeding a predefined safety threshold is detected (demo-simulated), the system initiates an alert.
 3. High-Accuracy Geolocation: Implements a multi-stage tracking strategy using navigator.geolocation with high-accuracy fallback logic to maintain a precise GPS lock for emergency dispatch.
@@ -15,7 +15,7 @@ In moments of crisis, a victim often lacks the time or physical ability to inter
 5. Privacy-First Architecture: Implements ephemeral audio processing. No voice recordings are stored on servers; only safety insights are extracted, ensuring 100% user privacy.
 
 
-🚀 Tech Stack
+## 🚀 Tech Stack
 1. Framework: React 19 (TypeScript)
 2. AI Engine: Google Gemini 2.5 Flash (Multimodal Live API)
 3. Styling: Tailwind CSS
@@ -24,7 +24,7 @@ In moments of crisis, a victim often lacks the time or physical ability to inter
 6. State Management: React Hooks (useCallback, useRef, useEffect)
 
 
-🛠️ How It Works
+## 🛠️ How It Works
 1. Activation: The user enables the "Shield" which boots the Sensor Engine and the Gemini Live Session.
 2. Monitoring: The app listens for acoustic distress and feels for physical impacts simultaneously.
 3. Detection: If a danger signature is found, a 5-second Fail-Safe countdown is triggered.
