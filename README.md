@@ -8,8 +8,8 @@ In moments of crisis, a victim often lacks the time or physical ability to inter
 
 
 ✨ Key Features
-1. Vocal Sentry (Acoustic AI): Powered by the Gemini 2.5 Flash Native Audio API, the app streams environmental audio to detect distress signatures (keywords like "HELP", "STOP", or sounds of physical struggle) in real-time.
-2. Impact Logic (Fall Detection): Utilizes the device's accelerometer to monitor G-Force magnitude. If an impact exceeding 38 m/s² is detected (simulating a fall or forced movement), the system initiates an alert.
+1. Vocal Sentry (Acoustic AI): Designed to integrate with Gemini 2.5 Flash Native Audio API for real-time distress audio analysis.
+2. Impact Logic (Fall Detection): Utilizes the device's accelerometer to monitor G-Force magnitude. If an impact exceeding a predefined safety threshold is detected (demo-simulated), the system initiates an alert.
 3. High-Accuracy Geolocation: Implements a multi-stage tracking strategy using navigator.geolocation with high-accuracy fallback logic to maintain a precise GPS lock for emergency dispatch.
 4. Emergency Bento Dashboard: A high-performance, dark-mode UI designed for low-light visibility and quick interaction, featuring live telemetry sparklines via Recharts.
 5. Privacy-First Architecture: Implements ephemeral audio processing. No voice recordings are stored on servers; only safety insights are extracted, ensuring 100% user privacy.
@@ -29,3 +29,13 @@ In moments of crisis, a victim often lacks the time or physical ability to inter
 2. Monitoring: The app listens for acoustic distress and feels for physical impacts simultaneously.
 3. Detection: If a danger signature is found, a 5-second Fail-Safe countdown is triggered.
 4. Dispatch: If not cancelled, the system vibrates the device and readies the location/medical profile for immediate transmission to the "Trust Network."
+
+
+## ▶️ Run Locally
+
+### Prerequisites
+- Node.js (v18+)
+### Steps
+```bash
+npm install
+npm run dev
